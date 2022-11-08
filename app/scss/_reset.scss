@@ -11,6 +11,11 @@ html{
 ul[class],
 ol[class]{
   padding: 0;
+  list-style-type: none;
+}
+
+li[class]{
+  list-style-type: none;
 }
 
 body,
@@ -46,4 +51,9 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
 }
